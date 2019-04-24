@@ -1,0 +1,16 @@
+<div class="wizard">
+  <ul>
+    <li>
+      <div class="inside-box" (click)="navigateToPage('page-one')">
+        <span>Page 1</span>
+      </div>
+    </li>
+    <li>
+      <div class="inside-box" (click)="navigateToPage('page-two')">
+        <span>Page 2</span>
+      </div>
+    </li>
+  </ul>
+</div>
+
+<router-outlet></router-outlet>

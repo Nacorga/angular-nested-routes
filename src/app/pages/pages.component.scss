@@ -1,0 +1,24 @@
+.wizard {
+  width: 100%;
+  margin: 25px 0;
+
+  ul {
+    display: flex;
+    justify-content: center;
+
+    li {
+      width: 100px;
+      padding: 25px;
+    }
+
+    .inside-box {
+      cursor: pointer;
+      background: rgb(179, 179, 179);
+      width: 100%;
+      height: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
